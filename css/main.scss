@@ -8,3 +8,20 @@ body {
   font-family: $primary_font;
   background-color: $white;
 }
+
+@media (min-width: 800px) {
+  .main-area {
+    display: flex;
+    justify-content: space-between;
+
+    aside {
+      flex-grow: 1;
+      border: 1px solid #000;
+    }
+
+    section {
+      flex-grow: 3;
+      border: 1px solid #000;
+    }
+  }
+}

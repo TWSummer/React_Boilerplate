@@ -14,7 +14,7 @@ class HomePage extends React.Component {
             <Link to="/">Home</Link>
           </nav>
         </header>
-        <main>
+        <main className="main-area">
           <aside>Aside</aside>
           <section>Section</section>
         </main>
